@@ -1,2 +1,2 @@
 # portfolio
-.Working on a portfolio website
+Working on a portfolio website.
