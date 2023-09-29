@@ -4,7 +4,7 @@
 }
 body {
     background-color: #101820ff ;
-    cursor: url('/space.png'), auto;
+    cursor: url('/cursor.png'), auto;
     /*cursor: url('/cursor.png'), auto;*/
 }
 .container {
@@ -36,9 +36,11 @@ ul {
     align-items: center;
     padding: 6px;
     list-style-type: none;
+    cursor: url('/blast.png'), auto;,
 }
 li {
     padding: 6px;
+    cursor: url('/blast.png'), auto;
 }
 li a {
     float: left;
@@ -47,9 +49,11 @@ li a {
     padding: 5px;
     text-decoration: none;
     text-align: center;
+    cursor: url('/blast.png'), auto;
 }
 li a:hover {
     color: #696667ff;
+    cursor: url('/blast.png'), auto;
 }
 .home {
     display: flex;
@@ -122,6 +126,7 @@ footer{
     text-align: center;
     margin: 20px;
     padding: 20px;
+    cursor: url('/blast.png'), auto;
 }
 footer p {
     color: #696667ff;
@@ -132,6 +137,7 @@ footer p {
     text-align: center;
 }
 .social-icons a {
+    cursor: url('/blast.png'), auto;
     display: inline-block;
     color: #f2aa4cff;
     padding: 5px;
