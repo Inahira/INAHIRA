@@ -25,10 +25,9 @@ body {
     background-color: transparent;
     width: 15%;
     height: 100%;
-    margin: 5px;
+    margin:5px;
     padding: 10px;
     position: fixed;
-    text-overflow: hidden;
 }
 ul {
     display: flex;
@@ -65,14 +64,13 @@ li a:hover {
 }
 .intro p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: lighter;
     font-size: 40px;
     text-align: center;
     color: rgb(143, 138, 139);
     margin-bottom: 5px;
     margin-top: 3rem;
     padding: 30px;
-    width: 80%;
+    width: 20%;
 }
 
 
@@ -80,18 +78,18 @@ li a:hover {
     /*background-color: rgb(238, 236, 232);*/
     width: 60%;
     padding: 20px;
-    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card-container {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    padding: 50px;
-    width: 50%;
-    margin-left: 18rem;
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* 3 columns of equal width */
+    grid-template-rows: 1fr 1fr; /* 2 rows of equal height */
+    gap: 7px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .card {
     display: flex;
@@ -101,7 +99,9 @@ li a:hover {
     background-color: rgba(41, 68, 92, 0.171) ;
     padding: 60px;
     margin: 20px;
-    border-radius: 9px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.2em;
 }
 .card:hover {
     background-color: rgb(24, 40, 54);
