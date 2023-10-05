@@ -1,0 +1,59 @@
+.main {
+    width: 60%;
+    padding: 10px;
+    margin: 50px auto ;
+}
+.educaction-para {
+    /*background-color: aquamarine;*/
+    text-align: left;
+    display: inline-block;
+    width: 49%;
+}
+.heading-h {
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f2aa4cff;
+}
+.heading-p {
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #696667ff;
+}
+.education-container {
+    /*background-color: antiquewhite;*/
+    text-align: right;
+    display: inline-block;
+    width: 49%;
+}
+.skills {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+}
+.skills-h {
+    color: #f2aa4cff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.languages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 2px;
+    /*background-color: aquamarine;*/
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image {
+    background-color: rgba(41, 68, 92, 0.171);
+    text-align: center;
+    border-radius: 7px;
+    padding: 15px;
+    margin:15px  ;
+    box-shadow: 6px 13px 23px -5px rgba(0,0,0,.46);
+}
+.image:hover {
+    background-color: rgb(24, 40, 54);
+}
