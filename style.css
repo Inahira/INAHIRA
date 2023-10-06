@@ -59,11 +59,13 @@ li a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 80%;
+    margin: auto;
 }
 .intro {
     display: contents;
     justify-content: center;
-    width: 80%;
+    width: 40%;
 }
 .intro b {
     color: #f2aa4cff;
@@ -92,17 +94,18 @@ li a:hover {
 .about {
     width: 60%;
     padding: 20px;
-    margin: 20px;
+    margin: auto;
     align-items: center;
 }
 .about p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     color: #696667ff;
+    text-align: left;
 }
 .buttons {
     margin-top: 27px;
-    width: 90%;
+    width: 60%;
 }
 .buttons button {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -113,7 +116,7 @@ li a:hover {
     border-style: groove;
     border-width: 1.5px;
     padding: 15px;
-    margin: 10px;
+    margin: auto;
     cursor: url('/cursor.png'), auto;
 }
 .buttons button:hover {
