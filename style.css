@@ -59,7 +59,7 @@ li a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 80%;
+    width: 97%;
     margin: 25px auto;
     border-radius: 15px;
 }
@@ -89,13 +89,13 @@ li a:hover {
     margin-top: 6px;
     text-align: left;
     font-size: 1.5rem;
-    color: rgb(194, 148, 92);
+    color: rgb(160, 133, 100);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .intro-paragraph-2 {
     margin-top: 15px;
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: rgb(122, 117, 111);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -113,6 +113,7 @@ li a:hover {
 .buttons {
     margin-top: 27px;
     width: 60%;
+    margin-bottom: 45px;
 }
 .buttons button {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -150,21 +151,22 @@ li a:hover {
 footer{
     background-color: none;
     text-align: center;
-    margin: 20px;
-    padding: 20px;
-    cursor: url('/blast.png'), auto;
+    margin: 10px;
+    padding: 50px;
 }
 footer p {
     color: #696667ff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .social-icons {
     text-align: center;
+    margin: 5px;
 }
 .social-icons a {
-    cursor: url('/blast.png'), auto;
-    display: inline-block;
     color: #f2aa4cff;
     padding: 5px;
 }

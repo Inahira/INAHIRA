@@ -1,10 +1,11 @@
 .main {
     width: 60%;
     padding: 10px;
-    margin: 35px auto ;
+    margin: 90px auto ;
 }
-.educaction-para {
+.about-para {
     /*background-color: aquamarine;*/
+    font-size: 20px;
     text-align: left;
     display: inline-block;
     width: 49%;
@@ -19,7 +20,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #696667ff;
 }
-.education-container {
+.about-container {
     /*background-color: antiquewhite;*/
     text-align: right;
     display: inline-block;
@@ -33,8 +34,16 @@
     padding: 10px;
 }
 .skills-h {
+    margin-top: 65px;
     color: #f2aa4cff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.skills-p {
+    color: rgb(109, 106, 103);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    width: 60%;
+    margin: 10px auto ;
 }
 .image-a {
     background-color: rgba(41, 68, 92, 0.171);
