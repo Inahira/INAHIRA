@@ -1,7 +1,8 @@
+
 .main {
     width: 60%;
     padding: 10px;
-    margin: 90px auto ;
+    margin: 90px auto;
 }
 .about-para {
     /*background-color: aquamarine;*/
@@ -11,6 +12,7 @@
     width: 49%;
 }
 .heading-h {
+    margin-top: 6rem;
     text-align: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #f2aa4cff;
@@ -26,7 +28,7 @@
     display: inline-block;
     width: 49%;
 }
-.skills {
+.skills-writting {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -34,7 +36,7 @@
     padding: 10px;
 }
 .skills-h {
-    margin-top: 65px;
+    margin-top: 6rem;
     color: #f2aa4cff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -55,7 +57,7 @@
 }
 .languages {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr ;
     gap: 2px;
     /*background-color: aquamarine;*/
