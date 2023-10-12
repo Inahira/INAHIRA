@@ -1,62 +1,7 @@
-/* Default styles for all screen sizes */
-
-/* Header styles */
-.container {
-    /* Add your styles here */
-}
-
-.nav {
-    /* Add your styles here */
-}
-
-/* Home section styles */
-.home {
-    /* Add your styles here */
-}
-
-/* About section styles */
-.main {
-    /* Add your styles here */
-}
-
-.about-para {
-    /* Add your styles here */
-}
-
-.image-a img {
-    /* Add your styles here */
-}
-
-/* Skills section styles */
-.skills {
-    /* Add your styles here */
-}
-
-.skills-writting {
-    /* Add your styles here */
-}
-
-.languages {
-    /* Add your styles here */
-}
-
-.image {
-    /* Add your styles here */
-}
-
-/* Footer styles */
-.footer {
-    /* Add your styles here */
-}
-
-/* Add more styles as needed */
-
-/* Media queries for responsive design */
-
-/* Adjust styles for screens smaller than 768px (e.g., phones) */
+/* for  responsive-ness */
 @media (max-width: 768px) {
-     /* Styles for screens up to 768px wide */
-     .container {
+    /* Styles for screens up to 768px wide */
+    .container {
         width: 90%;
         justify-content: left;
     }
@@ -67,21 +12,5 @@
     .buttons {
         text-align: center;
     }
-    /* Example: */
-    .nav ul {
-        flex-direction: column;
-    }
-
-    .nav ul li {
-        margin: 0.5em 0;
-    }
-
     /* Add more specific styles as needed */
 }
-
-/* Adjust styles for screens larger than 1200px (e.g., large desktops) */
-@media (min-width: 1200px) {
-    /* Example: */
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;

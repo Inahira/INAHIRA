@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', function() {
     document.addEventListener('DOMContentLoaded', function() {
         const headingElement = document.querySelector('.intro h1');
-        const text = "Hey, It's Inahira...|";
+        const text = "Hey, It's Inahira...";
         let index = 0;
     
         function type() {

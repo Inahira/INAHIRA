@@ -117,7 +117,7 @@ li a:hover {
     border-width: 1.5px;
     padding: 15px;
     margin-bottom: 20px;
-    box-shadow: 6px 13px 23px -5px rgba(0,0,0,.46);
+    /*box-shadow: 6px 13px 23px -5px rgba(0,0,0,.46);*/
 }
 .buttons button:hover {
     background-color: rgba(165, 163, 164, 0.082);
@@ -164,21 +164,4 @@ footer p {
 }
 .social-icons a:hover {
     color: #696667ff;
-}
-
-/* for  responsive-ness */
-@media (max-width: 768px) {
-    /* Styles for screens up to 768px wide */
-    .container {
-        width: 90%;
-        justify-content: left;
-    }
-    
-    .nav {
-        display: none; /* Hide the navigation on smaller screens */
-    }
-    .buttons {
-        text-align: center;
-    }
-    /* Add more specific styles as needed */
 }
