@@ -51,6 +51,7 @@ li a:hover {
     align-items: center;
     flex-direction: column;
     width: 97%;
+    height: 100vh;
     margin: 25px auto;
     border-radius: 15px;
 }
@@ -93,6 +94,7 @@ li a:hover {
 }
 .about {
     width: 60%;
+    height: 100vh;
     padding: 5px;
     align-items: center;
 }
