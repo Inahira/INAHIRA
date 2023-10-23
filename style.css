@@ -118,7 +118,6 @@ li a:hover {
     border-style: groove;
     border-width: 1.5px;
     padding: 15px;
-    margin-bottom: 20px;
     /*box-shadow: 6px 13px 23px -5px rgba(0,0,0,.46);*/
 }
 .buttons button:hover {
