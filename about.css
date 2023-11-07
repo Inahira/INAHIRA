@@ -1,6 +1,6 @@
 
 .about {
-    width: 60%;
+    width: 73%;
     padding: 10px;
     margin: 90px auto;
 }
@@ -24,7 +24,7 @@
     width: 49%;
 }
 .skill-section {
-    width: 70%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;
@@ -43,7 +43,6 @@
 }
 .skills-p {
     color: rgb(109, 106, 103);
-    width: 100%;
     text-align: center;
     margin: 10px auto ;
 }

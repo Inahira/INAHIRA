@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     background-color: #101820ff ;
@@ -78,10 +79,18 @@ li a:hover {
     text-align: left;
     color: rgb(143, 138, 139);
     margin-bottom: 5px;
-    margin-top: 5rem;
-    padding: 30px;
+    padding: 5px;
     width: 60%;
 }
+/*.typing {
+    width: 0;
+    overflow: hidden;
+    animation: typing 10s linear  infinite;
+}
+@keyframes typing {
+    from {width: 20%;}
+    to {width: 50%;}
+}*/
 .section-paragraph {
     margin-top: 6px;
     text-align: left;
@@ -100,9 +109,9 @@ li a:hover {
 .buttons {
     padding: 10px;
     align-items: center;
-    margin-left: 2rem;
     width: 60%;
-    margin-bottom: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .buttons button {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
