@@ -1,5 +1,5 @@
 
-.main {
+.about {
     width: 60%;
     padding: 10px;
     margin: 90px auto;
@@ -17,22 +17,20 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #f2aa4cff;
 }
-.heading-p {
-    text-align: left;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #696667ff;
-}
 .about-container {
     /*background-color: antiquewhite;*/
     text-align: right;
     display: inline-block;
     width: 49%;
-    height: 100vh;
 }
-.skills {
-    height: 100vh;
+.skill-section {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
 }
 .skills-writting {
+    font-size: 18px;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -40,17 +38,34 @@
     padding: 10px;
 }
 .skills-h {
-    margin-top: 6rem;
+    margin-top: 3rem;
     color: #f2aa4cff;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .skills-p {
     color: rgb(109, 106, 103);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
-    width: 60%;
+    width: 100%;
+    text-align: center;
     margin: 10px auto ;
 }
+.tag {
+    background-color: rgba(41, 68, 92, 0.171);
+    border: 1px solid #696667ff;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    color: rgb(143, 138, 139);
+    text-decoration: none;
+    border-radius: 8px;
+}
+.tag:hover {
+    background-color: rgb(24, 40, 54);
+    transform: scale(1.2);
+    box-shadow: 6px 13px 23px -5px rgba(0,0,0,.46);
+}
+.skills {
+    height: 100vh;
+}
+
 .image-a {
     background-color: rgba(41, 68, 92, 0.171);
     text-align: center;
