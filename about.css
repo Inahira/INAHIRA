@@ -12,7 +12,7 @@
     width: 49%;
 }
 .heading-h {
-    margin-top: 8rem;
+    margin-top: 7rem;
     text-align: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #f2aa4cff;
@@ -37,8 +37,8 @@
     text-align: center;
     padding: 10px;
 }
-.skills-h {
-    margin-top: 3rem;
+.section-heading {
+    margin-top: 2rem;
     color: #f2aa4cff;
 }
 .skills-p {
@@ -61,36 +61,48 @@
     transform: scale(1.2);
     box-shadow: 6px 13px 23px -5px rgba(0,0,0,.46);
 }
-.projects {
-    height: 100vh;
-}
 
-.image-a {
-    background-color: rgba(41, 68, 92, 0.171);
+img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 6px 13px 23px -5px rgba(0,0,0,.46);
+}
+.education {
+    /*overflow-y: auto;
+    height: 230px;*/
+   /*background-color: rgba(41, 68, 92, 0.171);*/
     text-align: center;
     border-radius: 7px;
     padding: 15px;
     margin:15px  ;
-    box-shadow: 6px 13px 23px -5px rgba(0,0,0,.46);
+    
 }
-.languages {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr ;
-    gap: 2px;
-    /*background-color: aquamarine;*/
-    width: 45%;
+.projects {
+    height: 100vh;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
-.image {
+.projects-disc {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid-gap: 15px;
+    /*background-color: aquamarine;*/
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card {
+    width: 100%;
+    height: 50vh;
     background-color: rgba(41, 68, 92, 0.171);
     text-align: center;
-    border-radius: 7px;
+    border-radius: 20px;
     padding: 15px;
-    margin:15px  ;
-    box-shadow: 6px 13px 23px -5px rgba(0,0,0,.46);
 }
-.image:hover {
+.card:hover {
     background-color: rgb(24, 40, 54);
+    transform: scale(1.0);
 }

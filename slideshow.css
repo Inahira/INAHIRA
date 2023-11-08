@@ -2,9 +2,11 @@
 
 /* Slideshow container */
 .slideshow-container {
+  height: 80vh;
   max-width: 60%;
   position: relative;
   margin: auto;
+  margin-top: 6rem;
 }
 
 /* Hide the images by default */
