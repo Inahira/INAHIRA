@@ -150,7 +150,7 @@ footer{
     background-color: none;
     text-align: center;
     margin: 10px;
-    padding: 50px;
+    padding:50px;
 }
 footer p {
     color: #696667ff;
@@ -159,6 +159,7 @@ footer p {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
 }
 .social-icons {
     text-align: center;
@@ -166,7 +167,7 @@ footer p {
 }
 .social-icons a {
     color: #f2aa4cff;
-    padding: 5px;
+    padding: 2px;
 }
 .social-icons a:hover {
     color: #696667ff;

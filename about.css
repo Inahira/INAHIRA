@@ -88,21 +88,26 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr ;
-    grid-gap: 15px;
+    grid-gap: 20px;
+    row-gap: 0px;
     /*background-color: aquamarine;*/
     width: 75%;
     margin-left: auto;
     margin-right: auto;
 }
 .card {
+    margin-top: 2rem;
     width: 100%;
     height: 50vh;
     background-color: rgba(41, 68, 92, 0.171);
     text-align: center;
-    border-radius: 20px;
+    border: 1px solid #101820ff;
+    border-radius: 15px;
     padding: 15px;
+    transition: 2s, tranform 5s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 5px 0 rgb(0,0,0,0.19) ;
 }
 .card:hover {
     background-color: rgb(24, 40, 54);
-    transform: scale(1.0);
+    transform: rotate(360deg);
 }
