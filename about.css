@@ -103,11 +103,34 @@ img {
     text-align: center;
     border: 1px solid #101820ff;
     border-radius: 15px;
-    padding: 15px;
+    padding: 30px;
     transition: 2s, tranform 5s;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 5px 0 rgb(0,0,0,0.19) ;
+    box-shadow: 0 0px 4px 0 rgba(24, 24, 24, 0.2), 0 0px 2px 0 rgba(22, 22, 22, 0.19) ; 
+    transform: translate3d(360deg);
 }
 .card:hover {
     background-color: rgb(24, 40, 54);
-    transform: rotate(360deg);
+   
+}
+.card-header {
+   /*background-color: black;*/
+    height: 30px;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+}
+.card-header a {
+    margin: 35px;
+    text-decoration: none; 
+    text-align: left;
+    color: rgba(240, 209, 169, 0.568);
+    font-size: 26px;
+    
+}
+.card-heading {
+    padding: 20px;
+    margin-top: 20px;
+    text-align: left;
+   color: #696667ff;
 }
