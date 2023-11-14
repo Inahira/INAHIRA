@@ -1,16 +1,128 @@
 /* for  responsive-ness */
-@media (max-width: 768px) {
-    /* Styles for screens up to 768px wide */
+@media only screen and (max-width: 768px) {
     .container {
-        width: 90%;
-        justify-content: left;
+        width: 100%;
+        justify-content: center;
     }
     
-    .nav {
-        display: none; /* Hide the navigation on smaller screens */
+    .nav{
+       display: none;
     }
-    .buttons {
+    .home, .about, .projects  {
+        width: 100%;
+        
+    }
+    .intro h1 {
+        font-weight: 15px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
     }
-    /* Add more specific styles as needed */
+    .section-paragraph {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .section-paragraph-2 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .buttons {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .buttons button {
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+        font-size: 3vw;
+    }
+    .about-container {
+        display: none;
+    }
+    .about-para {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    .heading-h {
+        text-align: center;
+        margin-top: 0px;
+    }
+    .tag-cloud {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    } 
+    .projects{
+        height: 350vh;
+    }
+    .projects-disc {
+        grid-template-columns: repeat(auto-fill, minmax(calc(66.67% - 20px), 1fr));
+    }
+
+    /* Adjust card width for smaller screens */
+    .card {
+        width: 100%;
+    }
+    .slideshow-container {
+        display: none;
+    }
 }
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .container {
+        width: 89%;
+        justify-content: center;
+    }
+    .about {
+        width: 90%;
+    }
+    .heading-h {
+        margin-top: 25px;
+    }
+    .projects{
+        height: 150vh;
+    }
+    .projects-disc {
+        grid-template-rows: repeat(3, 1fr); /* 3 rows with equal height */
+        grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
+        gap: 10px;
+    }
+
+    /* Adjust card width for smaller screens */
+    .card {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 80%;
+        justify-content: center;
+    }
+    .about {
+        width: 73%;
+    }
+    .heading-h {
+        margin-top: 6rem;
+    }
+    .projects{
+        height: 100vh;
+    }
+    .projects-disc {
+        grid-template-columns: repeat(auto-fill, minmax(calc(33.333% - 20px), 1fr)); 
+    }
+}
+
+
