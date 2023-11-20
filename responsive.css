@@ -4,7 +4,6 @@
         width: 100%;
         justify-content: center;
     }
-    
     .nav{
        display: none;
     }
@@ -39,11 +38,11 @@
         margin-right: auto;
     }
     .buttons button {
-        width: 20%;
+        width: 25%;
         margin-left: auto;
         margin-right: auto;
         padding: 15px;
-        font-size: 3vw;
+        font-size:3.5vw;
     }
     .about-container {
         display: none;
@@ -59,17 +58,21 @@
         margin-top: 0px;
     }
     .tag-cloud {
-        width: 90%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
     } 
+    
     .projects{
         height: 350vh;
+        
     }
     .projects-disc {
         grid-template-columns: repeat(auto-fill, minmax(calc(66.67% - 20px), 1fr));
+        width: 90%;
     }
+
 
     /* Adjust card width for smaller screens */
     .card {
@@ -77,6 +80,21 @@
     }
     .slideshow-container {
         display: none;
+    }
+    .skills-writting {
+        width: 90%;
+    }
+    .skills-p {
+        width: 100%;
+    }
+    .intro h1 {
+        font-size: 35px;
+    }
+    .section-paragraph {
+        font-size: 20px;
+    }
+    .section-paragraph-2{
+        font-size: 1.15rem;
     }
 }
 
