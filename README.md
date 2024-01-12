@@ -10,7 +10,9 @@
 
 ## 📈 GitHub Stats
 
-[![Your GitHub Stats](![Inahira's Streak](https://github-readme-streak-stats.herokuapp.com/?user=Inahira&theme=vue-dark&hide_border=true))](![Inahira's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Inahira&theme=vue-dark&show_icons=true&hide_border=true&layout=compact))
+![Inahira's Streak](https://github-readme-streak-stats.herokuapp.com/?user=Inahira&theme=vue-dark&hide_border=true)
+![Inahira's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Inahira&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
+![Inahira's Stats](https://github-readme-stats.vercel.app/api?username=Inahira&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
 
 ## 🌐 Connect with Me
 
