@@ -10,7 +10,7 @@
 
 ## 📈 GitHub Stats
 
-![Inahira's Streak](https://github-readme-streak-stats.herokuapp.com/?user=Inahira&theme=vue-dark&hide_border=true)
+[![Inahira's Streak]](https://github-readme-streak-stats.herokuapp.com/?user=Inahira&theme=vue-dark&hide_border=true)
 
 ## 🌐 Connect with Me
 
