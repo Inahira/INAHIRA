@@ -43,10 +43,10 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/tahira-inam-4053a625b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-    <img src="https://img.shields.io/badge/LinkedIn-YourLinkedInProfile-blue" alt="LinkedIn">
+    <img src="https://img.shields.io/badge/LinkedIn-MyLinkedInProfile-blue" alt="LinkedIn">
   </a>
-  <a href="https://yourwebsite.com">
-    <img src="https://img.shields.io/badge/Website-yourwebsite.com-blue" alt="Website">
+  <a href="inahira.github.io/Portfolio/">
+    <img src="https://img.shields.io/badge/Website-Mywebsite.com-blue" alt="Website">
   </a>
 </p>
 
